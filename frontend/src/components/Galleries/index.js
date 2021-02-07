@@ -8,7 +8,7 @@ const Galleries = ({ galleries }) => {
 
   return (
     <div>
-      <div className="uk-child-width-1-2" data-uk-grid>
+      <div className="uk-child-width-1-2@s" data-uk-grid>
         <div>
           {leftGalleries.map((gallery, i) => {
             return <Card gallery={gallery} key={`gallery__${gallery.id}`} />;

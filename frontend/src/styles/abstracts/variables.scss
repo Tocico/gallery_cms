@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200;1,400&family=Roboto:wght@100;300;400&family=Schoolbell&display=swap');
+
+$font_paragraph: 'Roboto', sans-serif;
+$font_headline: 'Nunito Sans', sans-serif;
+$font_hand_writing: 'Schoolbell', cursive;
+
+$color_yellow: #f4ae41;
+$color_light_yellow: #f5ce81;
+$color_white_yellow: #f4dbac;
+$color_overlay_yellow: #e1bb5c;
+$color_blue: #b8cbd0;
+$color_white_blue: #cedbde;
+$color_text: #4c4b4b;
+
+// media queries mixins
+@mixin media-xs {
+    @media screen and (min-width: 414px) {
+      @content;
+    }
+  }
+  @mixin media-s {
+    @media screen and (min-width: 680px) {
+      @content;
+    }
+  }
+  @mixin media-md {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  
+  @mixin media-lg {
+    @media screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+  
+  @mixin media-l {
+    @media screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+  
+  @mixin media-ml {
+    @media screen and (min-width: 1440px) {
+      @content;
+    }
+  }
+  
+  @mixin media-xl {
+    @media screen and (min-width: 1600px) {
+      @content;
+    }
+  }
+
+  @mixin media-xxl {
+    @media screen and (min-width: 1960px) {
+      @content;
+    }
+  }

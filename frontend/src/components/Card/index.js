@@ -16,14 +16,14 @@ const Card = ({ gallery }) => {
             height="100"
           />
         </div>
-        <div className="uk-card-body">
+        {/* <div className="uk-card-body">
           <p id="category" className="uk-text-uppercase">
             {gallery.category.name}
           </p>
           <p id="title" className="uk-text-large">
             {gallery.title}
           </p>
-        </div>
+        </div> */}
       </div>
     </Link>
   );

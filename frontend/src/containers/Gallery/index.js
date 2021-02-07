@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router'
 import Query from '../../components/Query'
 // import ReactMarkdown from 'react-markdown'
-import Moment from 'react-moment'
+// import Moment from 'react-moment'
 
 import GALLERY_QUERY from '../../queries/gallery/gallery'
 
@@ -28,9 +28,6 @@ const Gallery = () => {
             <div className='uk-section'>
               <div className='uk-container uk-container-small'>
                 {/* <ReactMarkdown source={gallery.content} /> */}
-                <p>
-                  <Moment format='MMM Do YYYY'>{gallery.published_at}</Moment>
-                </p>
               </div>
             </div>
           </div>

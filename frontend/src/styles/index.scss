@@ -3,3 +3,12 @@
 
 // Import style for specific screen size
 @import 'layout/general';
+
+@import '../components/Header/header.scss';
+@import '../components/Nav/nav.scss';
+@import '../components/Hero/hero.scss';
+@import '../containers/Home/home.scss';
+@import '../components/Overlay/overlay.scss';
+@import '../components/Query/query.scss';
+
+
